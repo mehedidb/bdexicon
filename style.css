@@ -1,0 +1,746 @@
+@font-face {
+  font-family: 'bdexicon';
+  src:
+    url('fonts/bdexicon.ttf?c1wqtc') format('truetype'),
+    url('fonts/bdexicon.woff?c1wqtc') format('woff'),
+    url('fonts/bdexicon.svg?c1wqtc#bdexicon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="bdexicon_"], [class*=" bdexicon_"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'bdexicon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bdexicon_by7:before {
+  content: "\e900";
+}
+.bdexicon_by7_alt:before {
+  content: "\e901";
+}
+.bdexicon_angle_bottom_fill:before {
+  content: "\e902";
+}
+.bdexicon_angle_down:before {
+  content: "\e903";
+}
+.bdexicon_angle_left:before {
+  content: "\e904";
+}
+.bdexicon_angle_left_fill:before {
+  content: "\e905";
+}
+.bdexicon_angle_right:before {
+  content: "\e906";
+}
+.bdexicon_angle_right_fill:before {
+  content: "\e907";
+}
+.bdexicon_angle_up:before {
+  content: "\e908";
+}
+.bdexicon_angle_up_fill:before {
+  content: "\e909";
+}
+.bdexicon_arrow_compare:before {
+  content: "\e90a";
+}
+.bdexicon_arrow_compare_alt:before {
+  content: "\e90b";
+}
+.bdexicon_arrow_compare_circle:before {
+  content: "\e90c";
+}
+.bdexicon_arrow_compare_circle_alt:before {
+  content: "\e90d";
+}
+.bdexicon_arrow_diagonal_lb:before {
+  content: "\e90e";
+}
+.bdexicon_arrow_diagonal_lb_long:before {
+  content: "\e90f";
+}
+.bdexicon_arrow_diagonal_lt:before {
+  content: "\e910";
+}
+.bdexicon_arrow_diagonal_lt_long:before {
+  content: "\e911";
+}
+.bdexicon_arrow_diagonal_rb:before {
+  content: "\e912";
+}
+.bdexicon_arrow_diagonal_rb_long:before {
+  content: "\e913";
+}
+.bdexicon_arrow_diagonal_rt:before {
+  content: "\e914";
+}
+.bdexicon_arrow_diagonal_rt_long:before {
+  content: "\e915";
+}
+.bdexicon_arrow_down:before {
+  content: "\e916";
+}
+.bdexicon_arrow_left:before {
+  content: "\e917";
+}
+.bdexicon_arrow_left_alt:before {
+  content: "\e918";
+}
+.bdexicon_arrow_long_down:before {
+  content: "\e919";
+}
+.bdexicon_arrow_long_down_alt:before {
+  content: "\e91a";
+}
+.bdexicon_arrow_long_left:before {
+  content: "\e91b";
+}
+.bdexicon_arrow_long_left_alt:before {
+  content: "\e91c";
+}
+.bdexicon_arrow_long_right:before {
+  content: "\e91d";
+}
+.bdexicon_arrow_long_right_alt:before {
+  content: "\e91e";
+}
+.bdexicon_arrow_long_up:before {
+  content: "\e91f";
+}
+.bdexicon_arrow_long_up_alt:before {
+  content: "\e920";
+}
+.bdexicon_arrow_right:before {
+  content: "\e921";
+}
+.bdexicon_arrow_right_alt:before {
+  content: "\e922";
+}
+.bdexicon_arrow_up:before {
+  content: "\e923";
+}
+.bdexicon_bars:before {
+  content: "\e924";
+}
+.bdexicon_bars_alt:before {
+  content: "\e925";
+}
+.bdexicon_bars_chat:before {
+  content: "\e926";
+}
+.bdexicon_bars_list:before {
+  content: "\e927";
+}
+.bdexicon_bars_list_fill:before {
+  content: "\e928";
+}
+.bdexicon_bookmark:before {
+  content: "\e929";
+}
+.bdexicon_bookmark_book:before {
+  content: "\e92a";
+}
+.bdexicon_bookmark_book_alt:before {
+  content: "\e92b";
+}
+.bdexicon_bookmark_fill:before {
+  content: "\e92c";
+}
+.bdexicon_bookmark_plus:before {
+  content: "\e92d";
+}
+.bdexicon_bookmark_plus_fill:before {
+  content: "\e92e";
+}
+.bdexicon_bookmark_star_alt:before {
+  content: "\e92f";
+}
+.bdexicon_calendar:before {
+  content: "\e930";
+}
+.bdexicon_calendar_check:before {
+  content: "\e931";
+}
+.bdexicon_calendar_clock:before {
+  content: "\e932";
+}
+.bdexicon_calendar_dots:before {
+  content: "\e933";
+}
+.bdexicon_calendar_fill:before {
+  content: "\e934";
+}
+.bdexicon_calendar_fill_alt:before {
+  content: "\e935";
+}
+.bdexicon_check:before {
+  content: "\e936";
+}
+.bdexicon_check_alt:before {
+  content: "\e937";
+}
+.bdexicon_check_circle:before {
+  content: "\e938";
+}
+.bdexicon_check_circle_alt:before {
+  content: "\e939";
+}
+.bdexicon_check_circle_fill:before {
+  content: "\e93a";
+}
+.bdexicon_check_double:before {
+  content: "\e93b";
+}
+.bdexicon_check_fill:before {
+  content: "\e93c";
+}
+.bdexicon_check_fill_alt:before {
+  content: "\e93d";
+}
+.bdexicon_check_fill_alt2:before {
+  content: "\e93e";
+}
+.bdexicon_check_square:before {
+  content: "\e93f";
+}
+.bdexicon_check_square_alt:before {
+  content: "\e940";
+}
+.bdexicon_check_square_fill:before {
+  content: "\e941";
+}
+.bdexicon_clock:before {
+  content: "\e942";
+}
+.bdexicon_clock_alt:before {
+  content: "\e943";
+}
+.bdexicon_clock_alt_2:before {
+  content: "\e944";
+}
+.bdexicon_close:before {
+  content: "\e945";
+}
+.bdexicon_close_fill:before {
+  content: "\e946";
+}
+.bdexicon_comments:before {
+  content: "\e947";
+}
+.bdexicon_comments_alt:before {
+  content: "\e948";
+}
+.bdexicon_comments_alt_2:before {
+  content: "\e949";
+}
+.bdexicon_comments_alt_3:before {
+  content: "\e94a";
+}
+.bdexicon_comments_alt_4:before {
+  content: "\e94b";
+}
+.bdexicon_comments_circle:before {
+  content: "\e94c";
+}
+.bdexicon_comments_circle_alt:before {
+  content: "\e94d";
+}
+.bdexicon_comments_circle_alt_2:before {
+  content: "\e94e";
+}
+.bdexicon_comments_fill:before {
+  content: "\e94f";
+}
+.bdexicon_comments_fill_alt:before {
+  content: "\e950";
+}
+.bdexicon_copyright:before {
+  content: "\e951";
+}
+.bdexicon_copyright_none:before {
+  content: "\e952";
+}
+.bdexicon_cupon:before {
+  content: "\e953";
+}
+.bdexicon_cupon_alt:before {
+  content: "\e954";
+}
+.bdexicon_cupon_alt_2:before {
+  content: "\e955";
+}
+.bdexicon_cupon_alt_3:before {
+  content: "\e956";
+}
+.bdexicon_cupon_alt_3_fill:before {
+  content: "\e957";
+}
+.bdexicon_cupon_alt_4:before {
+  content: "\e958";
+}
+.bdexicon_cupon_alt_4_fill:before {
+  content: "\e959";
+}
+.bdexicon_cupon_sale:before {
+  content: "\e95a";
+}
+.bdexicon_cupon_sale_alt:before {
+  content: "\e95b";
+}
+.bdexicon_delivery_box:before {
+  content: "\e95c";
+}
+.bdexicon_delivery_box_hand:before {
+  content: "\e95d";
+}
+.bdexicon_delivery_box_open:before {
+  content: "\e95e";
+}
+.bdexicon_delivery_truck:before {
+  content: "\e95f";
+}
+.bdexicon_delivery_truck_free:before {
+  content: "\e960";
+}
+.bdexicon_delivery_truck_time:before {
+  content: "\e961";
+}
+.bdexicon_download:before {
+  content: "\e962";
+}
+.bdexicon_download_alt:before {
+  content: "\e963";
+}
+.bdexicon_download_fill:before {
+  content: "\e964";
+}
+.bdexicon_edit:before {
+  content: "\e965";
+}
+.bdexicon_edit_alt:before {
+  content: "\e966";
+}
+.bdexicon_edit_alt_2:before {
+  content: "\e967";
+}
+.bdexicon_edit_fill:before {
+  content: "\e968";
+}
+.bdexicon_eye:before {
+  content: "\e969";
+}
+.bdexicon_eye_cross:before {
+  content: "\e96a";
+}
+.bdexicon_eye_cross_fill:before {
+  content: "\e96b";
+}
+.bdexicon_eye_fill:before {
+  content: "\e96c";
+}
+.bdexicon_faq:before {
+  content: "\e96d";
+}
+.bdexicon_faq_alt:before {
+  content: "\e96e";
+}
+.bdexicon_folder:before {
+  content: "\e96f";
+}
+.bdexicon_folder_alt:before {
+  content: "\e970";
+}
+.bdexicon_folder_alt_2:before {
+  content: "\e971";
+}
+.bdexicon_folder_fill:before {
+  content: "\e972";
+}
+.bdexicon_folder_fill_alt:before {
+  content: "\e973";
+}
+.bdexicon_folder_fill_alt_2:before {
+  content: "\e974";
+}
+.bdexicon_gift_card:before {
+  content: "\e975";
+}
+.bdexicon_gift_card_alt:before {
+  content: "\e976";
+}
+.bdexicon_gift_card_alt_fill:before {
+  content: "\e977";
+}
+.bdexicon_gift_card_fill:before {
+  content: "\e978";
+}
+.bdexicon_grid:before {
+  content: "\e979";
+}
+.bdexicon_grid_alt:before {
+  content: "\e97a";
+}
+.bdexicon_grid_alt_2:before {
+  content: "\e97b";
+}
+.bdexicon_grid_fill:before {
+  content: "\e97c";
+}
+.bdexicon_grid_fill_alt:before {
+  content: "\e97d";
+}
+.bdexicon_heart:before {
+  content: "\e97e";
+}
+.bdexicon_heart_fill:before {
+  content: "\e97f";
+}
+.bdexicon_link:before {
+  content: "\e980";
+}
+.bdexicon_link_alt:before {
+  content: "\e981";
+}
+.bdexicon_link_alt_2:before {
+  content: "\e982";
+}
+.bdexicon_link_fill:before {
+  content: "\e983";
+}
+.bdexicon_lock:before {
+  content: "\e984";
+}
+.bdexicon_lock_alt:before {
+  content: "\e985";
+}
+.bdexicon_lock_alt_fill:before {
+  content: "\e986";
+}
+.bdexicon_lock_alt_fill_open:before {
+  content: "\e987";
+}
+.bdexicon_lock_alt_open:before {
+  content: "\e988";
+}
+.bdexicon_lock_fill:before {
+  content: "\e989";
+}
+.bdexicon_lock_fill_open:before {
+  content: "\e98a";
+}
+.bdexicon_lock_open:before {
+  content: "\e98b";
+}
+.bdexicon_map:before {
+  content: "\e98c";
+}
+.bdexicon_map_alt:before {
+  content: "\e98d";
+}
+.bdexicon_map_pin:before {
+  content: "\e98e";
+}
+.bdexicon_map_pin_fill:before {
+  content: "\e98f";
+}
+.bdexicon_map_pin_stand:before {
+  content: "\e990";
+}
+.bdexicon_map_pin_stand_alt:before {
+  content: "\e991";
+}
+.bdexicon_online_tracking:before {
+  content: "\e992";
+}
+.bdexicon_online_tracking_alt:before {
+  content: "\e993";
+}
+.bdexicon_online_tracking_fill:before {
+  content: "\e994";
+}
+.bdexicon_paper_pin:before {
+  content: "\e995";
+}
+.bdexicon_paper_plane:before {
+  content: "\e996";
+}
+.bdexicon_paper_plane_alt:before {
+  content: "\e997";
+}
+.bdexicon_paper_plane_fill:before {
+  content: "\e998";
+}
+.bdexicon_pen:before {
+  content: "\e999";
+}
+.bdexicon_pen_alt:before {
+  content: "\e99a";
+}
+.bdexicon_percent:before {
+  content: "\e99b";
+}
+.bdexicon_percent_fill:before {
+  content: "\e99c";
+}
+.bdexicon_phone:before {
+  content: "\e99d";
+}
+.bdexicon_phone_alt:before {
+  content: "\e99e";
+}
+.bdexicon_phone_alt_fill:before {
+  content: "\e99f";
+}
+.bdexicon_phone_circle_fill:before {
+  content: "\e9a0";
+}
+.bdexicon_phone_fill:before {
+  content: "\e9a1";
+}
+.bdexicon_phone_square_fill:before {
+  content: "\e9a2";
+}
+.bdexicon_pin:before {
+  content: "\e9a3";
+}
+.bdexicon_pin_alt:before {
+  content: "\e9a4";
+}
+.bdexicon_pin_alt_2:before {
+  content: "\e9a5";
+}
+.bdexicon_play:before {
+  content: "\e9a6";
+}
+.bdexicon_play_alt:before {
+  content: "\e9a7";
+}
+.bdexicon_play_fill:before {
+  content: "\e9a8";
+}
+.bdexicon_plus:before {
+  content: "\e9a9";
+}
+.bdexicon_plus_alt:before {
+  content: "\e9aa";
+}
+.bdexicon_quote_left:before {
+  content: "\e9ab";
+}
+.bdexicon_quote_left_fill:before {
+  content: "\e9ac";
+}
+.bdexicon_quote_left_fill_alt:before {
+  content: "\e9ad";
+}
+.bdexicon_quote_right:before {
+  content: "\e9ae";
+}
+.bdexicon_quote_right_fill:before {
+  content: "\e9af";
+}
+.bdexicon_quote_right_fill_alt:before {
+  content: "\e9b0";
+}
+.bdexicon_quote_straight:before {
+  content: "\e9b1";
+}
+.bdexicon_reply:before {
+  content: "\e9b2";
+}
+.bdexicon_reply_alt:before {
+  content: "\e9b3";
+}
+.bdexicon_reply_fill:before {
+  content: "\e9b4";
+}
+.bdexicon_search:before {
+  content: "\e9b5";
+}
+.bdexicon_search_alt:before {
+  content: "\e9b6";
+}
+.bdexicon_search_alt_2:before {
+  content: "\e9b7";
+}
+.bdexicon_search_fill:before {
+  content: "\e9b8";
+}
+.bdexicon_share:before {
+  content: "\e9b9";
+}
+.bdexicon_share_alt:before {
+  content: "\e9ba";
+}
+.bdexicon_share_fill:before {
+  content: "\e9bb";
+}
+.bdexicon_shopping_bag:before {
+  content: "\e9bc";
+}
+.bdexicon_shopping_bag_alt:before {
+  content: "\e9bd";
+}
+.bdexicon_shopping_bag_alt_2:before {
+  content: "\e9be";
+}
+.bdexicon_shopping_bag_check:before {
+  content: "\e9bf";
+}
+.bdexicon_shopping_bag_check_fill:before {
+  content: "\e9c0";
+}
+.bdexicon_shopping_bag_fill:before {
+  content: "\e9c1";
+}
+.bdexicon_shopping_busket:before {
+  content: "\e9c2";
+}
+.bdexicon_shopping_busket_fill:before {
+  content: "\e9c3";
+}
+.bdexicon_shopping_cart:before {
+  content: "\e9c4";
+}
+.bdexicon_shopping_cart_alt:before {
+  content: "\e9c5";
+}
+.bdexicon_shopping_cart_alt_fill:before {
+  content: "\e9c6";
+}
+.bdexicon_shopping_cart_busket:before {
+  content: "\e9c7";
+}
+.bdexicon_shopping_cart_busket_fill:before {
+  content: "\e9c8";
+}
+.bdexicon_shopping_cart_fill:before {
+  content: "\e9c9";
+}
+.bdexicon_shopping_troly:before {
+  content: "\e9ca";
+}
+.bdexicon_spinner:before {
+  content: "\e9cb";
+}
+.bdexicon_spinner_circle:before {
+  content: "\e9cc";
+}
+.bdexicon_spinner_dots:before {
+  content: "\e9cd";
+}
+.bdexicon_star:before {
+  content: "\e9ce";
+}
+.bdexicon_star_alt:before {
+  content: "\e9cf";
+}
+.bdexicon_star_fill:before {
+  content: "\e9d0";
+}
+.bdexicon_star_fill_alt:before {
+  content: "\e9d1";
+}
+.bdexicon_sticky_note:before {
+  content: "\e9d2";
+}
+.bdexicon_sticky_note_alt:before {
+  content: "\e9d3";
+}
+.bdexicon_sticky_note_alt_2:before {
+  content: "\e9d4";
+}
+.bdexicon_sticky_note_alt_3:before {
+  content: "\e9d5";
+}
+.bdexicon_sticky_note_alt_4:before {
+  content: "\e9d6";
+}
+.bdexicon_support:before {
+  content: "\e9d7";
+}
+.bdexicon_support_alt:before {
+  content: "\e9d8";
+}
+.bdexicon_tag:before {
+  content: "\e9d9";
+}
+.bdexicon_tag_alt:before {
+  content: "\e9da";
+}
+.bdexicon_tag_alt_2:before {
+  content: "\e9db";
+}
+.bdexicon_tag_alt_3:before {
+  content: "\e9dc";
+}
+.bdexicon_tag_alt_4:before {
+  content: "\e9dd";
+}
+.bdexicon_tag_alt_5:before {
+  content: "\e9de";
+}
+.bdexicon_tag2:before {
+  content: "\e9df";
+}
+.bdexicon_tags:before {
+  content: "\e9e0";
+}
+.bdexicon_tags_alt:before {
+  content: "\e9e1";
+}
+.bdexicon_tags_alt_2:before {
+  content: "\e9e2";
+}
+.bdexicon_tags_alt_fill:before {
+  content: "\e9e3";
+}
+.bdexicon_tags_fill:before {
+  content: "\e9e4";
+}
+.bdexicon_thumbs:before {
+  content: "\e9e5";
+}
+.bdexicon_thumbs_alt:before {
+  content: "\e9e6";
+}
+.bdexicon_tumbs_fill:before {
+  content: "\e9e7";
+}
+.bdexicon_user:before {
+  content: "\e9e8";
+}
+.bdexicon_user_alt:before {
+  content: "\e9e9";
+}
+.bdexicon_user_alt_fill:before {
+  content: "\e9ea";
+}
+.bdexicon_user_fill:before {
+  content: "\e9eb";
+}
+.bdexicon_user_fill_alt:before {
+  content: "\e9ec";
+}
+.bdexicon_user_fill_alt_2:before {
+  content: "\e9ed";
+}
+.bdexicon_user_line:before {
+  content: "\e9ee";
+}
+.bdexicon_user_line_alt:before {
+  content: "\e9ef";
+}
